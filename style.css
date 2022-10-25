@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} */
+
+/* header section start ****************************************************************** */
+.header{
+    display: flex;
+    /* width: 1526px; */
+    height: 127.5px;
+    padding: 10px 0px;
+    margin-right: 0;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.header__sociallogo{
+    width: 142.78px;
+    height: 24px;
+    /* display: flex; */
+    justify-content:space-around;
+}
+
+.header__list{
+    margin-left: 8px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+
+.header__social-img{
+    width: 22px;
+    height: 22px;
+}
+
+#main-img{
+  width: auto;
+  height: auto;
+}
+
+.phoolco__img{
+    width: 270px;
+    height: 107.5px;
+}
+
+
+.header__cart-img{
+    height: 22px;
+}
+
+/* header section end ******************************************************************** */
+
+
+/* navigation bar ******************************************************************************/
+
+/* .navitator__maincontainer::before{
+    content: "";
+    background: red;
+    width: 1536px;
+    height: 11px;
+
+} */
+
+.navitator__maincontainer{
+    text-align: center;
+    padding: 8px 0px;
+    border-top: 1px solid rgb(212, 209, 209);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.navigator__list{
+    margin-right: 30px;
+}
+
+
+/* navigator bar end*********************************************************************************** */
+
+
+
+/* banner ********************************************************************************************* */
+.banner__img{
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+
+
+/* banner ends ****************************************************************************************** */
+
+
+/* products ******************************************************************************************* */
+
+
+/* .phoolwali{
+    background: red;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+
+} */
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.phoolwali__img-card{
+    width: 240px;
+    height: 530px;
+    background: rgb(234, 236, 236);
+    border: 0px solid whitesmoke;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px rgb(190, 188, 188);
+}
+
+.headphone__img{
+    box-sizing: border-box;
+    padding: 0;
+    width: 240px;
+    height: 397px;
+    border: 0px solid whitesmoke;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    /* border-radius: 9px; */
+    box-shadow: 3px 3px 5px rgb(190, 188, 188);
+}
+
+.phoolwali__small-img{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    position: relative;
+    border: 0px solid rgb(11, 4, 4);
+    border-radius: 9px;
+    z-index: 2;
+    left: 90px;
+    bottom: 15px;
+}
+
+.phoolwali__small-img img{
+    border: 0px solid rgb(172, 164, 164);
+    border-radius: 9px;
+    box-shadow: 3px 3px 4px rgb(190, 188, 188);
+}
+
+.card__info p{
+text-align: center;
+font-size: 14;
+font-weight: 700;
+color: #232323;
+width: 192px;
+height: 36px;
+}
+
+.card__info{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.price span{
+    text-align: center;
+    width: 88px;
+    height: 18px;
+    font-weight: 600;
+    color: rgb(35, 35, 35);
+    margin: 3px 0;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* products end************************************************************************************** */
+
+
+/* our bestseller **************************************************************************************/
+.bestseller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245,245,245);
+}
+
+.bestseller_link a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    color: #3d4c4f;
+}
+
+.bestseller_flower-img img{
+    width: 24px;
+    height: 24px;
+}
+
+.bestseller_link span{
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+
+/* our best seller products ***********************************************************************************************/
+
+.products__bestseller{
+    /* width: 1526.400px; */
+    height: 648.650px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 349px 349px 349px 349px;
+    grid-gap: 30px;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 12px;
+    background-color: #f5f5f5;
+}
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.phoolwali__img-card__bestseller{
+    width: 349px;
+    height: 485px;
+    background: #b4d57ccf;
+    border: 0px solid whitesmoke;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px rgb(190, 188, 188);
+}
+
+.headphone__img__bestseller{
+    box-sizing: border-box;
+    padding: 0;
+    width: 349px;
+    height: 349px;
+    border: 0px solid whitesmoke;
+    border-radius: 9px;
+    border-top-right-radius: 0;
+    box-shadow: 3px 3px 5px rgb(190, 188, 188);
+}
+
+
+.card__info__bestseller p{
+text-align: center;
+font-family: open Sans;
+font-size: 14;
+font-weight: 700;
+color: #232323;
+width: 192px;
+height: 36px;
+}
+
+.card__info__bestseller{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.price span{
+    text-align: center;
+    width: 88px;
+    height: 18px;
+    font-weight: 600;
+    color: rgb(35, 35green, 35blue);
+    margin: 3px 0;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+    
+.add-to-cart__bestseller{
+    box-sizing: border-box;
+    position: relative;
+    top: -66px;
+    right: -87px;
+    border: 1px solid black;
+    padding: 15px;
+    padding-left: 54px;
+    padding-right: 54px;
+    text-decoration: none;
+}
+
+.add-to-cart__bestseller{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #232323;
+    visibility: visible;
+}
+
+/* shop by cateogry */
+
+.shop-by-cateogry{
+    width: 424px;
+    height: 270px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.shop-by-cateogry_img{
+    width: 255px;
+    height: 255px;
+    border-radius: 10px;
+}
+
+.shop-by-cateogry_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:#232323;
+    color: white;
+    width: 424px;
+    height: 40.40px;
+    position: relative;
+    top: -30px;
+    z-index: 5px;
+    flex-basis: 100%;
+
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.shop-by-cateogry-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-div{
+    box-sizing: border-box;
+    padding: 9px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 424px 424px 424px;
+    column-gap: 15px;
+    background-color: antiquewhite;
+}
+
+.yellow-png-div{
+    box-sizing: border-box;
+    padding-top: 32px;  
+}
+
+.yellow-png{
+    max-width: 100%;
+    height: 217px;
+}
+
+/* green band banner **************************************************/
+.green-band{
+    width: 400px;
+    background-size: contain;   
+}
+
+.green-band-img{
+  width: 1519px;
+  height: 423px;
+}
+
+/* *********************************************************************** */
+
+/* sacred-humane ********************************************************************************************* */
+
+.Sacred-ethical-humane{
+    display: flex;
+    gap: 20px;    
+    background:#eceee9;
+    padding-top: 40px;
+}
+
+.Sacred-ethical-humane_paragraph{
+    width: 755px;
+    height: 359.1px;
+    display: inline-block;
+}
+
+.Sacred-ethical-humane_paragraph1{
+    font-size: 25px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    margin-left: 18.25% !important;
+}
+
+.Sacred-ethical-humane_paragraph2{
+    font-size: 16px;
+    margin-left: 18.25% !important;
+    text-align: justify !important;
+    line-height: 1.6em;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.women_handrolling{
+    width: 617.39px;
+    height: 395.13px;
+}
+
+/* *************************************************************************************************************** */
+
+/* two images*********************************************************************** */
+.banner-1-img{
+    width: 743px;
+    height: 460px;
+}
+
+.banner-2-img{
+    width: 743px;
+    height: 460px;
+}
+.two-images{
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    padding: 9px;
+    padding-top: 15px;
+}
+
+/* two images end******************************************************************************************** */
+
+/* our Reviews ***************************************************************************************** */
+.Reviews{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+    padding: 30px;
+}
+
+.Reviews_link a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    color: #3d4c4f;
+}
+
+.Reviews_flower-img img{
+    width: 24px;
+    height: 24px;
+}
+
+.Reviews_link span{
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.reviewbox_para{
+    box-sizing: border-box;
+    width:1320px;
+    height: 229px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: 1.5;
+    margin: 83px;
+    padding: 50.575px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -15px;
+}
+
+.as-featured-in-img{
+    width: 1519px;
+}
+
+/* footer-min******************************************************** */
+.footer_min{
+    background-image: url("./images/BANNER-03.png");
+    background-color: aqua;
+    
+}
+
+
