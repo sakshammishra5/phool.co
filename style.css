@@ -380,13 +380,28 @@ height: 36px;
 
 /* green band banner **************************************************/
 .green-band{
-    width: 400px;
-    background-size: contain;   
+    width: 100%;
+    height: 100%;
+    background-size: cover;   
+    position: relative;
+}
+
+.green-band::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.green-band_video{
+    float: right;
+    position: absolute;
+    top: 30%;
+    right: 30%;
 }
 
 .green-band-img{
-  width: 1519px;
-  height: 423px;
+  width: 100%;
+  height: 100%;
 }
 
 /* *********************************************************************** */
@@ -394,6 +409,8 @@ height: 36px;
 /* sacred-humane ********************************************************************************************* */
 
 .Sacred-ethical-humane{
+    width: 100%;
+    height: 100%;
     display: flex;
     gap: 20px;    
     background:#eceee9;
@@ -401,12 +418,12 @@ height: 36px;
 }
 
 .Sacred-ethical-humane_paragraph{
-    width: 755px;
-    height: 359.1px;
+    width: 50vw;
+    height: auto;
     display: inline-block;
 }
 
-.Sacred-ethical-humane_paragraph1{
+.Sacred-ethical-humane_paragraph-title{
     font-size: 25px;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 400;
@@ -425,23 +442,23 @@ height: 36px;
 
 
 .women_handrolling{
-    width: 617.39px;
-    height: 395.13px;
+    width: 50vw;
+    
 }
 
 /* *************************************************************************************************************** */
 
 /* two images*********************************************************************** */
 .banner-1-img{
-    width: 743px;
-    height: 460px;
+    width: 50vw;
 }
 
 .banner-2-img{
-    width: 743px;
-    height: 460px;
+    width: 50vw;
 }
 .two-images{
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     display: flex;
     gap: 20px;
@@ -477,28 +494,41 @@ height: 36px;
     font-size: 22px;
 }
 
+.reviewbox{
+    width: 100vw;
+}
+
 .reviewbox_para{
     box-sizing: border-box;
-    width:1320px;
-    height: 229px;
+    width:90vw;
+    /* height: 229px; */
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     list-style: 1.5;
-    margin: 83px;
+    /* margin: 83px; */
     padding: 50.575px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: -15px;
+    margin: -15px auto auto auto;
 }
 
+.as-featured-in{
+    width: 100vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
 .as-featured-in-img{
-    width: 1519px;
+    width: 100%;
 }
 
-/* footer-min******************************************************** */
-.footer_min{
-    background-image: url("./images/BANNER-03.png");
-        background-color: aqua;
+/* footer signup for monthly update */
+.signup{
+    box-sizing: border-box;
+    margin:0 103.200px;
+    background-image: url("https://images.unsplash.com/photo-1666526320312-d07111a23bdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+.signup_box{
+    display: flex;
 }
 
 
