@@ -11,6 +11,18 @@
 } */
 
 /* header section start ****************************************************************** */
+
+@media(max-width:500px){
+    .header{
+        display: inline-block;
+    }
+}
+
+@media(max-width:500px){
+    .navitator__maincontainer{
+        display: block;
+    }
+}
 .header{
     display: flex;
     /* width: 1526px; */
@@ -84,6 +96,10 @@ li{
     margin-right: 30px;
 }
 
+.navitator__maincontainer a{
+    text-decoration: none;
+    color: #3d4c4f;
+}
 
 /* navigator bar end*********************************************************************************** */
 
@@ -450,11 +466,11 @@ height: 36px;
 
 /* two images*********************************************************************** */
 .banner-1-img{
-    width: 50vw;
+    width: 100%;
 }
 
 .banner-2-img{
-    width: 50vw;
+    width: 100%;
 }
 .two-images{
     width: 100%;
